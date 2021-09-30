@@ -1,17 +1,29 @@
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-
-# User-specific files
-.Ruserdata
 
 # igrnore data or other files with confidential info. May add documents back in
-Obj1_obs_size_method/Data/
-Obj1_obs_size_method/Output/
-Obj1_obs_size_method/Documents/
+#Obj1_obs_size_method/Data/
+#Obj1_obs_size_method/Output/
+#Obj1_obs_size_method/Documents/
 
-# RStudio files
-.Rproj.user/
+
+# R projects
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# usernames and passwords for db connections
+database.csv
+
+# confidential fishery dependent data
+*confidential*
+
+# other file types we don't want to track
+*.xlsx
+*.xlsm
+*.docx
+*.pptx
+*.png
+*.Rdata
+
+# Windows thumbnail cache files
+Thumbs.db
