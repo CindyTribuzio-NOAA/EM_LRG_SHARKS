@@ -2,9 +2,6 @@
 .Rhistory
 .Rapp.history
 
-# RStudio files
-.Rproj.user/
-
 # Session Data files
 .RData
 
@@ -15,3 +12,6 @@
 Obj1_obs_size_method/Data/
 Obj1_obs_size_method/Output/
 Obj1_obs_size_method/Documents/
+
+# RStudio files
+.Rproj.user/
