@@ -1,0 +1,57 @@
+Field,Source,Description
+cruise,Observer Special Project,ODDS applied observer cruise number (Observer Declare and Deploy System)
+permit,Observer Special Project,Vessel permit
+year,Observer Special Project,year
+observer,Observer Special Project,"name of observer, should link to cruise in FMA databases, however depends on who lead observer was and which observer filled in data form"
+vessel_name,Observer Special Project,name of vessel
+gear_desc,Observer Special Project,gear type
+haul_date,Observer Special Project,date of start of haul
+haul,Observer Special Project,Haul number within that trip
+size_est,Observer Special Project,"Categorical size determined by observer using visual cue, not recorded on all observations"
+visual_cue,Observer Special Project,"observers were provided with a list of lengths that they could use to estimate size of shark and place into size_est categories, see sampling plan"
+total_haul_pss,Observer Special Project,Total number of PSS observed in haul
+census,Observer Special Project,Y/N if the observer had access to all PSS in haul
+sex_obs,Observer Special Project,sex as recorded by observer on special project
+photo_taken,Observer Special Project,"Y/N if the observer took any pictures, we use this to track them down later"
+wt,Observer Special Project,"weight in kg (note that this will be modified in the 2023 plan to specify ONLY measured lengths, some of these are likely table weights)"
+pcl,Observer Special Project,pre-caudal length (note that this will be modified in 2023 plan to take both PCL and TL because some observers recorded TL)
+specimen_yn,Observer Special Project,"Y/N if a specimen was collected (i.e., eyes)"
+specimen_num,Observer Special Project,"if yes, specimen numbers"
+notes,Observer Special Project,any observer notes
+notes2,Observer Special Project,any observer notes
+trip_join,NORPAC data,unique identifier generated in NORPAC db
+haul_join,NORPAC data,unique identifier generated in NORPAC db
+nmfs_area,NORPAC data,numeric NMFS statistical area
+gear,NORPAC data,numeric gear code
+gear_description,NORPAC data,"gear type, may not match exactly from above, but this field is offical gear"
+performance,NORPAC data,"coded value describing the haul performance, generally not a concern for this project"
+performance_description,NORPAC data,text descriptions of performance
+official_total_catch_mt,NORPAC data,total groundfish catch for haul
+vessel,NORPAC data,"vessel ID value, not the same as permit above"
+vessel_length_ft,NORPAC data,"vessel length, note that vessels can change length, so not useful"
+ifq_flag,NORPAC data,Y/N if the trip was an IFQ trip (halibut/sablefish)
+duration_min,NORPAC data,tow duration or soak time
+bottom_depth_fathoms,NORPAC data,avg water depth
+fishing_depth_fathoms,NORPAC data,avg bottom depth of fishing gear
+lat_dd_start,NORPAC data,"latitude in decimal degrees of haul start, for fixed gear it is start of haul back"
+lon_dd_start,NORPAC data,"longitude in decimal degrees of haul start, for fixed gear it is start of haul back"
+lat_dd_end,NORPAC data,"latitude in decimal degrees of haul end, for fixed gear it is end of haul back"
+lon_dd_end,NORPAC data,"longitude in decimal degrees of haul end, for fixed gear it is end of haul back"
+t_table,NORPAC data,"not sure, we don't need this"
+haul_seq,NORPAC data,"not sure, we don't need this"
+sample_type,NORPAC data,"not sure, we don't need this"
+percent_retained,NORPAC data,proportion of that sample that was retained
+date_of_entry,NORPAC data,"date that the debriefed data is entered and available (I think, but we don't need this)"
+species_code,NORPAC data,NORPAC species codes
+species_name,NORPAC data,common name
+sex,NORPAC data,official sex recorded by observer in NORPAC
+sample_size,NORPAC data,"not sure, we don't need this"
+sample_number,NORPAC data,number of fish actually measured
+sample_weight_kg,NORPAC data,weight of fish actually measured
+extrapolated_number,NORPAC data,"extrapolated number of fish for the whole haul, this is what gets converted to weight if a weight wasn't recorded"
+extrapolated_weight_kg,NORPAC data,"extrapolated weight of fish for the whole haul, this is what goes to CAS"
+received_from_norpac,NORPAC data,"AKFIN added field, we don't care"
+loaded_to_repository,NORPAC data,"AKFIN added field, we don't care"
+sampID,OBJ 1 code,unique identifier generated in OBJ1 code for this project
+ncf_lat,OBJ 1 code,non-confidential latitude (start)
+ncf_lon,OBJ 1 code,non-confidential longitude (start)
